@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+
+header{
+	padding: 0.8em;
+	color: white;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #262626;
+	font-family: sans-serif;
+	
+
+
+	
+
+}
+
+
+
+
+.container
+{
+	max-width: 1280px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+
+
+img
+{
+	width: 300px;
+	height: 300px; 
+	margin: 10px;
+	max-width: 100%;
+	filter: grayscale(10);
+	border: 10px solid white;
+	mix-blend-mode: soft-light;
+	position: relative;
+	transition: all 2s;
+
+
+}
+
+img:hover {
+	filter: brightness(1);
+	mix-blend-mode: unset;
+	border-color: transparent;
+	transform: scale(2.5);
+	z-index: 1;
+}
+	
+footer {
+	padding: 0.5em;
+	text-align: right;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
